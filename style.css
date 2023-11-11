@@ -392,3 +392,161 @@ h2 {
         font-size: 1.3rem;
     }
 }
+@media (max-width: 320px){
+    #Home{
+        flex-direction: column;
+    }
+    .two{
+        flex-direction: column;
+        align-items: center;
+    }
+    #Services{
+        flex-direction: column;
+    }
+    #skills{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .rightsection img {
+        width: 150px;
+        margin: 50px 0;
+    }
+    .sersub {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sersubcard{
+        max-width: 300px;
+    }
+    nav ul {
+        display: none;
+    }
+    .contact{
+        margin: 100px 25px;
+    }
+    .projects {
+        margin-left: 11%;
+    }
+    .other {
+        margin-left: 11%;
+    }
+    .gray1 {
+        color: gray;
+        margin: 0 30%;
+    }
+    .leftsection {
+        font-size: 1.3rem;
+        margin: 50px;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .vertical_text{
+        margin: 1.02%;
+        font-size: 1.05rem;
+    }
+    .para2{
+        font-size: 1rem;
+    }
+    .ri2{
+        font-size: 1rem;
+    }
+    .serh1 {
+        font-size: 1.4rem;
+        color: white;
+        text-align: center;
+    }
+    .proh1 {
+        font-size: 1.2rem;
+    }
+    .secondsection h1 {
+        font-size: 1.25rem;
+    }
+    .conh1{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 375px){
+    #Home{
+        flex-direction: column;
+    }
+    .two{
+        flex-direction: column;
+        align-items: center;
+    }
+    #Services{
+        flex-direction: column;
+    }
+    #skills{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .rightsection img {
+        width: 150px;
+        margin: 50px 0;
+    }
+    .sersub {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sersubcard{
+        max-width: 300px;
+    }
+    nav ul {
+        display: none;
+    }
+    .contact{
+        margin: 100px 25px;
+    }
+    .projects {
+        margin-left: 11%;
+    }
+    .other {
+        margin-left: 11%;
+    }
+    .gray1 {
+        color: gray;
+        margin: 0 33%;
+    }
+    .leftsection {
+        font-size: 1.3rem;
+        margin: 50px;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .vertical_text{
+        margin: 1.02%;
+        font-size: 1.05rem;
+    }
+    .para2{
+        font-size: 1rem;
+    }
+    .ri2{
+        font-size: 1rem;
+    }
+    .serh1 {
+        font-size: 1.4rem;
+        color: white;
+        text-align: center;
+    }
+    .proh1 {
+        font-size: 1.2rem;
+    }
+    .secondsection h1 {
+        font-size: 1.25rem;
+    }
+    .conh1{
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
