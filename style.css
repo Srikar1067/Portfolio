@@ -469,7 +469,7 @@ h2 {
     }
 }
 
-@media (min-width: 375px) and (max-width:419px){
+@media (min-width: 375px) and (max-width:424px){
     #Home{
         flex-direction: column;
     }
