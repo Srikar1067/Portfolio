@@ -316,7 +316,7 @@ h2 {
     }
 }
 
-@media (min-width: 425px) and (max-width:500px){
+@media (min-width: 425px) and (max-width:520px){
     #Home{
         flex-direction: column;
     }
