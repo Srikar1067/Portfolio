@@ -316,7 +316,7 @@ h2 {
     }
 }
 
-@media (min-width: 425px) and (max-width:520px){
+@media (min-width: 425px) and (max-width:550px){
     #Home{
         flex-direction: column;
     }
@@ -392,7 +392,7 @@ h2 {
         font-size: 1.3rem;
     }
 }
-@media (min-width: 300px) and (max-width:374px){
+@media (min-width: 250px) and (max-width:374px){
     #Home{
         flex-direction: column;
     }
