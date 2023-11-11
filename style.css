@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin:0 23px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 100px 85px;
+}
+
+.left {
+    font-size: 1.3rem;
+}
+
+#Home {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+    height: fit-content;
+}
+
+#Home>div {
+    width: 40vw;
+}
+
+.leftsection {
+    font-size: 2rem;
+    margin: 50px;
+}
+
+.rightsection img {
+    width: 40%;
+    margin: 50px 0px 50px 50px;
+}
+
+.util {
+    color: blueviolet;
+}
+
+.textgray {
+    color: gray;
+}
+
+#element {
+    color: rgb(147, 47, 240);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+
+.secondsection h1 {
+    font-size: 1.5rem;
+}
+
+.line {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 70px 85px;
+}
+
+.about {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h3 {
+    color: #8a2be2;
+    margin: -50px;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.naam {
+    color: rgb(147, 47, 240);
+    font-size: 1.8rem;
+}
+
+.imp {
+    color: #8a2be2;
+}
+
+.nam1 {
+    font-size: 1.2rem;
+}
+
+.ri2 {
+    margin: 100px 5%;
+    font-size: 1.1rem;
+}
+
+.li2 {
+    margin: 100px 5%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    flex-wrap:  nowrap;
+}
+
+#button1 {
+    background-color: #8a2be2;
+    margin: 50px;
+}
+
+#services {
+    padding: 50px;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    height:100vh;
+}
+
+.serh1 {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+.sersub {
+    font-size: 0.9rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.subh1 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.sersubcard {
+    border: 2px solid #8a2be2;
+    margin: 20px;
+    width: 500px;
+    background-color: #541192;
+    border-radius: 10px;
+    color: rgba(245, 245, 245, 0.767);
+}
+
+.projects {
+    margin-left: 130px;
+}
+
+.proh1 {
+    font-size: 1.4rem;
+}
+
+.other {
+    margin-left: 130px;
+}
+
+.ot1 {
+    font-size: 1.4rem;
+}
+
+.gray1 {
+    color: gray;
+    margin: 0 45.5%;
+}
+
+.conh1 {
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+.contact{
+    margin: 100px;
+}
+.para2{
+    max-width: 700px;
+}
+.anc{
+    text-decoration: none;
+    color: white;
+}
+
+.down{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    padding-right: 10px
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.vertical_text{
+    margin: 1.02%;
+}
+.img1{
+    max-height: 250px;
+    max-width: 250px;
+}
+
+@media (max-width: 768px){
+    #Home{
+        flex-direction: column;
+    }
+    .two{
+        flex-direction: column;
+        align-items: center;
+    }
+    #Services{
+        flex-direction: column;
+    }
+    #skills{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .rightsection img {
+        width: 150px;
+        margin: 50px 0;
+    }
+    .sersub {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sersubcard{
+        max-width: 500px;
+    }
+    nav ul {
+        display: none;
+    }
+    .contact{
+        margin: 100px 25px;
+    }
+    .projects {
+        margin-left: 11%;
+    }
+    .other {
+        margin-left: 11%;
+    }
+    .gray1 {
+        color: gray;
+        margin: 0 42.1%;
+    }
+    .leftsection {
+        font-size: 1.5rem;
+        margin: 50px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .vertical_text{
+        margin: 1.02%;
+        font-size: 1.1rem;
+    }
+    .para2{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 425px){
+    #Home{
+        flex-direction: column;
+    }
+    .two{
+        flex-direction: column;
+        align-items: center;
+    }
+    #Services{
+        flex-direction: column;
+    }
+    #skills{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .rightsection img {
+        width: 150px;
+        margin: 50px 0;
+    }
+    .sersub {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sersubcard{
+        max-width: 300px;
+    }
+    nav ul {
+        display: none;
+    }
+    .contact{
+        margin: 100px 25px;
+    }
+    .projects {
+        margin-left: 11%;
+    }
+    .other {
+        margin-left: 11%;
+    }
+    .gray1 {
+        color: gray;
+        margin: 0 35%;
+    }
+    .leftsection {
+        font-size: 1.3rem;
+        margin: 50px;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .vertical_text{
+        margin: 1.02%;
+        font-size: 0.9rem;
+    }
+    .para2{
+        font-size: 1rem;
+    }
+    .ri2{
+        font-size: 1rem;
+    }
+    .serh1 {
+        font-size: 1.4rem;
+        color: white;
+        text-align: center;
+    }
+    .proh1 {
+        font-size: 1.2rem;
+    }
+    .secondsection h1 {
+        font-size: 1.25rem;
+    }
+    .conh1{
+        font-size: 1.3rem;
+    }
+}
