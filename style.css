@@ -316,7 +316,7 @@ h2 {
     }
 }
 
-@media (min-width: 425px) and (max-width:550px){
+@media  (max-width:550px){
     #Home{
         flex-direction: column;
     }
@@ -369,7 +369,7 @@ h2 {
     }
     .vertical_text{
         margin: 1.02%;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .para2{
         font-size: 1rem;
@@ -392,7 +392,7 @@ h2 {
         font-size: 1.3rem;
     }
 }
-@media (min-width: 250px) and (max-width:374px){
+@media (max-width:374px){
     #Home{
         flex-direction: column;
     }
@@ -469,7 +469,7 @@ h2 {
     }
 }
 
-@media (min-width: 375px) and (max-width:424px){
+@media  (max-width:424px){
     #Home{
         flex-direction: column;
     }
@@ -545,6 +545,7 @@ h2 {
         font-size: 1.3rem;
     }
 }
+
 
 
 
